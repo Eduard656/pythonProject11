@@ -39,3 +39,5 @@ for person in people['people']:
 
 with open('data2.json','w', encoding='utf8') as file:
     json.dump(people, file, indent=4)
+
+print('Hello world!')

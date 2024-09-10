@@ -3,7 +3,7 @@ def second_value(tup):
 
 
 x = [(3, 5), (1, 4), (6, 3), (9, 2)]
-x.sort(key= lamda x :x[1])
+x.sort(key== lamda x :x[1])
 print(x)
 
 a = lambda num , name: print(num, name)
